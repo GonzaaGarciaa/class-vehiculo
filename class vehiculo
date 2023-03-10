@@ -1,0 +1,12 @@
+class Vehiculo:
+    color = "Azul"
+    ruedas = 4
+    puertas = 5
+
+class Coche(Vehiculo):
+    velocidas = 180
+    cilindrada = 300
+
+fiat_punto = Coche()
+print(fiat_punto.color)
+print(fiat_punto.velocidas)
